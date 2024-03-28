@@ -1,0 +1,214 @@
+/* 
+CSS code for QScript Coffee website 
+*/
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styles */
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.logo a span {
+    font-weight: bold;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+#home {
+    display: flex;
+    height: 73vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#home .hero-image {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0 1rem 1rem 0;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+#home .hero-image img {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+#home .hero-content {
+    color: black;
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+#home .hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#home .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+/* About section styles */
+#about {
+    padding: 4rem;
+    background-color: #f4f4f4;
+}
+
+#about h2 {
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Menu section styles */
+#menu {
+    padding: 4rem;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+
+#menu h2 {
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-item {
+    width: 30%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.menu-item img {
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.menu-item h3 {
+    margin-bottom: 0.5rem;
+}
+
+.menu-item p {
+    margin-bottom: 1rem;
+}
+
+/* Contact section styles */
+#contact {
+    padding: 4rem;
+    background-color: #f4f4f4;
+}
+
+#contact h2 {
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#contact form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact .form-content {
+    margin-bottom: 1rem;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#contact input,
+#contact textarea {
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    resize: none;
+}
+
+#contact textarea {
+    height: 10rem;
+}
+
+/* Buttons styles */
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+

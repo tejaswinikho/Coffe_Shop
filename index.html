@@ -1,0 +1,90 @@
+<!-- HTML code for QScript Coffee website -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QScript Coffee</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="#home">QScript<span>Coffee</span></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero-image">
+            <img src="https://source.unsplash.com/random/800x600?coffee" alt="QScript Coffee Shop">
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to QScript Coffee</h1>
+            <p>Specialized in premium coffee, teas, and pastries.</p>
+            <a href="#contact" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About QScript Coffee</h2>
+        <p>QScript Coffee was founded in 2010 with a mission to serve high-quality coffee, teas, and pastries in a cozy and welcoming environment. We source our beans from small-scale farmers and roast them in-house to ensure the freshest and most flavorful coffee experience. Our team is passionate about creating a unique and memorable coffee experience for every guest.</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Popular Menu Items</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="https://source.unsplash.com/random/300x200?coffee" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Our signature cappuccino with perfectly steamed milk and a rich espresso shot. Topped with a delicate layer of foam.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://source.unsplash.com/random/300x200?pastry" alt="Croissant">
+                <h3>Croissant</h3>
+                <p>A classic buttery and flaky croissant, freshly baked in-house every day.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://source.unsplash.com/random/300x200?tea" alt="Matcha Tea">
+                <h3>Matcha Tea</h3>
+                <p>A delicate and refreshing matcha tea, served hot or iced with a hint of sweetness.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-content">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-content">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-content">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send</button>
+        </form>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
